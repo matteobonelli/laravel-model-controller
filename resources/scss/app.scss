@@ -11,3 +11,48 @@ $fa-font-path: "../webfonts" !default;
 h1 {
     color: $text-color;
 }
+
+#mainbody {
+    background-color: black;
+}
+
+header {
+    img {
+        width: 100px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        margin: 0;
+    }
+
+    li {
+        margin: 0 5px;
+        font-size: 30px;
+        font-weight: bold;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+footer {
+    font-size: 16px;
+    color: white;
+
+    .separator {
+        border: 5px solid rgba(255, 255, 255, 0.3);
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.801);
+    }
+}

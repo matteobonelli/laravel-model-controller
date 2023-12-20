@@ -5,7 +5,7 @@
 @section('content')
 
 
-<div class="container">
+<div class="container my-4">
     <div class="card">
         <img src="{{$movie->image}}" alt="{{$movie->title}}">
         <h2>{{$movie->title}}</h2>

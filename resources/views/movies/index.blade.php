@@ -5,7 +5,7 @@
 @section('content')
 
 
-<div class="container">
+<div class="container my-4">
     <div class="row">
         @foreach($movies as $movie)
         <div class="col-12 col-md-4 col-lg-3 gy-4">
