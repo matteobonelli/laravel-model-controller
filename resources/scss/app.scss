@@ -56,3 +56,28 @@ footer {
         color: rgba(255, 255, 255, 0.801);
     }
 }
+
+#index-movies {
+    .card {
+        background-color: black;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        transition: transform 0.8s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .movie-container {
+        padding: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-top: 0;
+    }
+}
