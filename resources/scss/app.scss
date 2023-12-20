@@ -81,3 +81,30 @@ footer {
         border-top: 0;
     }
 }
+
+#show-movies {
+    img {
+        width: 300px;
+    }
+
+    .card {
+        background-color: black;
+        color: white;
+        width: 300px;
+    }
+
+    .description-container {
+        width: 500px;
+        margin-left: 100px;
+        color: white;
+    }
+
+    h5,
+    h3 {
+        color: red;
+    }
+
+    .vote {
+        color: gold;
+    }
+}
